@@ -15,7 +15,7 @@ from random import randint
 # git push -uf origin main
 #pushing gitlab
 
-for i in range(0,randint(5,161)):
+for i in range(0,randint(1,4)):
     d = '0 days ago'
     with open('file.txt', 'a') as file:
         file.write(d + "\n")
