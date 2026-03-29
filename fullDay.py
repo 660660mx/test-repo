@@ -9,4 +9,4 @@ for i in range(1,365):
         os.system('git add .')
         os.system('git commit --date="' + d + '" -m "commit"')
 
-os.system('git push origin master')
+os.system('git push origin main')
